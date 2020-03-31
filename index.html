@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson5</title>
+    <style>
+
+
+*{margin:0;padding:0;}
+
+
+
+header {text-align:left;height:40px;line-height:3em;padding:10px;
+    position:sticky;top:0;
+height:40px;z-index:100;
+ border: 3px solid #b70f0a;
+ background-color: #ff8351;padding:1%
+} 
+
+.hero-block {height:350px;z-index:10;
+ border: 3px solid #355723;
+ background-color: #b3e498;padding:20px;
+}
+.hero-block  p{display:inline;}
+.hero-block form p{text-align:center;}
+
+main {height:500px; 
+ border: 3px solid #0844a4;
+ background-color: #c9f1fd;}
+ main p{padding:1%;}
+
+
+
+article {width:40%;height:250px;
+display:inline-block;
+ border: 3px solid #9c29b7;
+ background-color: #c977db;}
+
+
+
+article div{padding:2%;}
+article:nth-child(odd) {position:absolute;margin-left:5%;left:0;}
+article:nth-child(even) {position:absolute;margin-right:5%;right:0;}
+
+article:nth-child(odd) img {float:right;padding:5px;}
+article:nth-child(even) img {float:left;padding:5px;}
+
+
+
+footer {text-align:left;height:40px;line-height:3em;padding:10px;
+ position:sticky;bottom:0;
+ border: 3px solid #553d0d;
+ background-color: #ffc957;
+}
+
+form{width:15%;padding:5px;position:absolute;
+right:25px;background-color:#fff;text-align:center;top:110px;;
+border:3px solid blue;}
+form p{margin-bottom:15px;}
+
+
+input{border:1px solid black;padding:8px 3px;margin:3px;}
+
+button{font-weight:bold;border:1px solid #000;border-radius:5px;
+padding:5px 70px;background-color:rgb(236, 232, 232);margin:14px 4px;}
+
+
+    </style>
+
+</head>
+<body>
+    <header>Proin arcu tortor, fringilla id placerat id, tincidunt ut ligula.</header>
+    <div class="hero-block">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at aliquam nunc, a pharetra elit.<br>
+            Proin arcu tortor, fringilla id placerat id, tincidunt ut ligula.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at aliquam nunc, a pharetra elit.<br>
+            Proin arcu tortor, fringilla id placerat id, tincidunt ut ligula.</p>
+
+        <form>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br><p>Lorem ipsum dolor sit amet.</p><br>
+            <input type="email" placeholder="E-mail">
+            <input type="password" placeholder="Password">
+            <button type="submit">Login</button>
+
+        </form>
+    </div>
+   <main>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at aliquam nunc, a pharetra elit.<br>
+        Proin arcu tortor, fringilla id placerat id, tincidunt ut ligula.</p><br>
+
+    <article>
+        <div><img   src="https://winaero.com/blog/wp-content/uploads/2019/09/Photos-app-icon-256-colorful.png" alt="" width="120px" height="auto">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at aliquam nunc, a pharetra elit. 
+        Proin arcu tortor, fringilla id placerat id, tincidunt ut ligula.</p><p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at aliquam nunc, a pharetra elit. 
+            Proin arcu tortor, fringilla id placerat id, tincidunt ut ligula.</p><p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at aliquam nunc, a pharetra elit. 
+                Proin arcu tortor, fringilla id placerat id, tincidunt ut ligula.</p></div>
+        
+        </article>
+
+    <article>
+        <div><img   src="https://winaero.com/blog/wp-content/uploads/2019/09/Photos-app-icon-256-colorful.png" alt="" width="120px" height="auto">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at aliquam nunc, a pharetra elit. 
+            Proin arcu tortor, fringilla id placerat id, tincidunt ut ligula.</p><p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at aliquam nunc, a pharetra elit. 
+                Proin arcu tortor, fringilla id placerat id, tincidunt ut ligula.</p><p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at aliquam nunc, a pharetra elit. 
+                    Proin arcu tortor, fringilla id placerat id, tincidunt ut ligula.</p></div>
+                </article>
+
+
+                   
+   </main>
+    
+    <footer>Proin arcu tortor, fringilla id placerat id, tincidunt ut ligula.</footer>
+  
+   
+
+
+
+</body>
+
+</html>
